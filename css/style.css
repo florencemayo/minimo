@@ -1,3 +1,62 @@
 body {
     font-family: 'Playfair Display', serif;
+    width: 10%;
+}
+
+#slider {
+    margin: 20px auto;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.newsletter {
+    background-color: lightgray;
+}
+
+.newsletter-header {
+    text-align: center;
+}
+
+
+.four-posts {
+    padding: 20px;
+}
+
+.two-posts {
+    padding: 20px;
+}
+
+.email-field {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 2px 5px;
+}
+
+.load-more-button {
+    margin-bottom: 120px;
+    margin-top: 80px;
+    border: 1px solid black;
+}
+
+#footer {
+    clear: both;
+    position: relative;
+    height: 80px;
+    margin-top: -40px;
+    padding-top: 30px;
+    background-color: lightgrey;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
